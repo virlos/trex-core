@@ -84,5 +84,5 @@ def __import_ext_libs(ext_libs, ext_libs_path):
             sys.path.insert(1, full_path)
 
 # load the library
-__load()
+#__load()
 

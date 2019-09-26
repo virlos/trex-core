@@ -21,7 +21,6 @@ from .trex_stl_port import STLPort
 from .trex_stl_streams import STLStream, STLProfile
 from .trex_stl_stats import CPgIdStats
 
-from texttable import ansi_len
 
 def validate_port_input(port_arg):
     """Decorator to support PortProfileID type input.
